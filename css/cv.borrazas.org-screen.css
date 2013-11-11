@@ -1,0 +1,199 @@
+/*
+  Google Fonts http://www.google.com/fonts#UsePlace:use/Collection:Ubuntu|Open+Sans:400italic,400,700
+*/
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(http://thremes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://thremes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://thremes.googleusercontent.com/static/fonts/opensans/v6/xjAJXh38I15wypJXxuGMBrrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu'), url(http://thremes.googleusercontent.com/static/fonts/ubuntu/v4/vRvZYZlUaogOuHbBTT1SNevvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+
+/* Font awesome http://fontawesome.io/ */
+
+@font-face {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/fontawesome-webfont.woff') format('woff');
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    line-height: 1.6em;
+    text-align: center;
+}
+
+p {
+    margin: 1rem 0.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    line-height: 2rem;
+    margin: 3rem 0 1rem 0;
+}
+
+/* Latest updated caption */
+body h1:first-child + p em {
+    color: #999;
+    display: inline-block;
+    font-size: 0.9rem;
+    font-style: normal;
+    margin: 0 auto 2rem auto;
+    padding: 0 0.1rem;
+    position: relative;
+}
+
+/* Latest updated caption decoration */
+body h1:first-child + p em:before,
+body h1:first-child + p em:after {
+    border: 1px solid #ddd;
+    content: "";
+    display: block;
+    left: -6.2rem;
+    position: absolute;
+    top: 0.85rem;
+    width: 6rem;
+}
+
+body h1:first-child + p em:after {
+    left: auto;
+    right: -6.2rem;
+}
+
+ul, ol {
+    width: 60%;
+    margin: 1rem auto;
+    padding: 0;
+    list-style: none;
+}
+
+/* An ordered list is used for the timeline */
+ol {
+    text-align: left;
+    list-style: none;
+}
+
+li {
+    margin: 0.8rem 0;
+}
+
+/* Sometimes markdown inserts p inside lists */
+li p {
+    margin: 0;
+}
+
+/* Dates on the timeline */
+ol em {
+    display: inline-block;
+    width: 6rem;
+}
+
+/* Details in the timeline */
+ol li ul {
+    padding: 0;
+    font-size: 0.9em;
+    margin: 0 0 0 6.2rem;
+    color: #333;
+    width: 80%;
+}
+
+/* Unsorted list are shown as blue bubbles */
+body > ul li {
+    text-align: center;
+    background: rgb(53,157,255);
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.25);
+    border-top: 1px solid rgba(200,200,255,0.25);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    color: #fff;
+    display: inline-block;
+    margin: 0.2rem;
+    padding: 0.3rem 0.6rem;
+    text-shadow: rgba(0,0,0,0.746094) 0 1px 1px;
+    transition: background 2s ease-out;
+}
+
+body > ul li:hover {
+    background-color: #667380;
+}
+
+body > ul li a,
+body > ul li a:visited {
+    color: #fff;
+}
+
+/* Linkedin, Github, Twitter and Flicker links */
+ul.links li {
+    background: rgb(143, 0, 255);
+}
+
+/* Icons for the links */
+ul.links li span {
+    font-family: 'FontAwesome';
+    font-weight: normal;
+}
+
+footer {
+    color: #999;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* Some space between links */
+footer a {
+    padding: 0 0.2rem;
+}
+
+/* Link to the online version, only useful for the print version */
+.link-online-version {
+    display: none;
+}
+
+
+/* Better use of horizontal space in tablets and smaller devices */
+@media only screen and (max-width: 768px) {
+    ol {
+        width: 100%;
+        text-align: center;
+    }
+
+    ol li {
+        display: block;
+        width: 100%;
+    }
+
+    ol li em {
+        display: block;
+        width: 100%;
+        font-weight: bold;
+    }
+
+    ol li ul {
+        margin: 0 auto;
+    }
+}
