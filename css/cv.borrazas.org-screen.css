@@ -73,15 +73,15 @@ body h1:first-child + p em:after {
     border-top: 1px solid #ddd;
     content: "";
     display: block;
-    left: -6.2rem;
+    left: -4.2rem;
     position: absolute;
     top: 0.85rem;
-    width: 6rem;
+    width: 4rem;
 }
 
 body h1:first-child + p em:after {
     left: auto;
-    right: -6.2rem;
+    right: -4.2rem;
 }
 
 ul, ol {
@@ -177,6 +177,19 @@ footer a {
 
 /* Better use of horizontal space in tablets and smaller devices */
 @media only screen and (max-width: 768px) {
+
+    /* Latest updated caption decoration lines shorter */
+    body h1:first-child + p em:before,
+    body h1:first-child + p em:after {
+      left: -2.2rem;
+      width: 2rem;
+    }
+
+    body h1:first-child + p em:after {
+        left: auto;
+        right: -2.2rem;
+     }
+
     ol {
         width: 100%;
         text-align: center;
