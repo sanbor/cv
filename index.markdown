@@ -5,11 +5,10 @@ layout: cv.borrazas.org
 Santiago Borrazás résumé
 ========================
 
-_Last updated 2013-11-11_
+_Last updated 2016-03-18_
 
 
-Santiago is a [full-stack web developer]
-(http://forge38.com/blog/2008/06/full-stack-web-developers/) specialising in
+Santiago is a [full-stack web developer](http://forge38.com/blog/2008/06/full-stack-web-developers/) specialising in
 creating web applications.
 
 
@@ -107,5 +106,4 @@ Buenos Aires, Argentina
 
 Email: <santiago@borrazas.org>
 
-Cellphone: (+54 9) 11 5694 7856
-
+Mobile: (+54 9) 11 5694 7856
