@@ -76,14 +76,15 @@ Create the best user experience to help people solve their problems.
 
 ## Technical
 
+- Java
+- Python
 - Javascript (ECMAScript 5 and 6)
 - Javascript frameworks (Backbone, JQuery, YUI, Prototype)
-- HTML 4.0.1 and 5
+- HTML5
 - CSS 2.1 and 3
 - Semantic HTML
 - Social APIs (Twitter, Facebook, OAuth)
 - PHP
-- PHP MVC Frameworks (CodeIgniter, Kohana)
 - CMS/osCommerce (Magento, WordPress, Drupal)
 - SQL
 - ActionScript 3
