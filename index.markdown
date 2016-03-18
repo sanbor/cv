@@ -19,7 +19,7 @@ Create the best user experience to help people solve their problems.
 
 # Timeline
 1. *2015 - now* Working on an automated trading system.
-    - I had the opportunity to gain experience in a backend Programming
+    - I had the opportunity to gain experience in a backend programming
     position in a project. I help improve, maintain and administrate an automated
     trading system written in Java and Python. Occasionally drawing some charts
     using D3.
