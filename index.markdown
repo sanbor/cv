@@ -5,72 +5,159 @@ layout: cv.borrazas.org
 Santiago Borrazás résumé
 ========================
 
-_Last updated 2016-03-23_
+_Last updated 2016-03-27_
 
 
-Santiago is a [full-stack web developer](http://forge38.com/blog/2008/06/full-stack-web-developers/) specialising in
+Santiago is a back-end and front-end software engineer specializing in
 creating web applications.
 
 
 # Goal
 
-Create the best user experience to help people solve their problems.
-
-
-# Timeline
-- *2015 - now* Working on an automated trading system.
-    - I had the opportunity to gain experience in a backend programming
-    position in a project. I help improve, maintain and administrate an automated
-    trading system written in Java and Python. Occasionally drawing some charts
-    using D3.
-
-- *2013 - 2015* Worked @ [Ekumen](http://www.ekumenlabs.com/) as web developer.
-    - Worked for [Celery](https://www.trycelery.com) implementing new features
-    in the always-improving dashboard and checkout. Celery is a Y-Combinator
-    backed startup that offers a platform for pre-orders.
-
-- *2013 - now* Studying Computer Engineering @ Universidad Argentina de la Empresa
-    (UADE).
-
-- *2013 - 2013* Worked @ 55social as web developer.
-    - Worked on the publishing module of the company's product: a social media
-    platform for companies to generate content, interact with and analyze their
-    audience.
-    Developed new features and improved existing codebase. Debugged the back-end
-    (a Java project with Spring, Hibernate as ORM and Freemarker as the templating
-    engine). Daily scrum meetings, coding in JS, HTML and CSS.
-
-- *2012 - 2013* Worked @ Despegar as web developer.
-    - Despegar.com is the leading travel website in Latin America. Worked on the
-    Auto section of the website. We worked implementing new features in the website
-    using Javascript, HTML5 and CSS3.
-
-- *2010 - 2012* Worked @ Globant as web developer.
-    - Worked on an app for MySpace to demo how to use MySpace's Javascript API.
-    Worked on various [JWT](http://www.jwt.com/jwt/) internal apps, using JS,
-    HTML and CSS and started with some new technologies as Backbone, Mustache,
-    Node. Used agile methodologies: daily scrum, ticket system and bi-monthly
-    planning meetings.
-
-- *2010 - 2011* Studied Computer Engineering @ Universidad de Buenos Aires.
-
-- *2008 - 2010* Freelancing @ Webs with love.
-    - An incredible experience, working on a variety of projects: wrote my first
-    game for a non-profit marketing consultant, a board-like game written in
-    AS3; redesigned and rewrote an app to track stock in stores for a marketing
-    agency in PHP using CodeIgniter framework. Designed websites using
-    WordPress. Also maintained osCommerce, Drupal and Joomla websites.
-    Learned how to manage  projects, deal with clients, and market my services.
-
-- *2006 - 2008* Worked @ W3 Comunicaciones as web developer.
-    - Maintained Citibank's Latin American websites using HTML, CSS and JS.
-    Successfully convinced the company to style only using CSS instead of
-    tables. Several projects in Flash using AS2.
-
-- *2000 - 2006* High School @ Fernando Fader, CENS.
+Create the best software and user experience to help people have a better life.
 
 
 # Experience
+
+1.  # Automated trading system
+
+    ## Software engineer *March 2015 - now*
+
+    Developed and maintained a system for running automated trading algorithms.
+    Including:
+
+    - Ported parts of the existing Java system to Jython (a Python
+      implementation for the Java platform). We found that for
+      many tasks, such as writing trading strategies or writing tests, Java was
+      getting in our way. I created a test suite in Jython, ported a third of
+      the existing tests, and ran the un-ported Java tests from the
+      Jython test suite.
+
+    - Created a tool to read production log files and generate charts using D3.
+      This tool allowed us to compare production trading data against our
+      simulations.
+
+    - Developed a scraper to acquire economic data and use it in both our
+      simulations and in our production code.
+
+    - Analyzed market data to develop new algorithms.
+
+    - Monitored the system to see if the trading strategy was performing as
+      expected.
+
+    We pair-programmed and used test-driven design (TDD).
+
+
+1.  # Ekumen
+
+    ## Web developer *December 2013 - March 2015*
+
+    Worked for [Celery](https://www.trycelery.com) (a Y-Combinator backed
+    startup that offers a platform for pre-orders) maintaining and developing
+    new features in the dashboard app. Including:
+
+    - Implemented a utility to help customer support migrate heterogeneous
+      CSV files from clients and import the data into the platform.
+
+    - Refactored many styles in the app, removing custom layouts and styles in
+      favor of using Bootstrap components. These changes dramatically reduced
+      the complexity of the stylesheets.
+
+    - Thanks to the extensive use of Bootstrap, I was able to make several parts
+      of the app mobile friendly.
+
+    Used agile methodologies, we had planning meetings twice a month, daily
+    scrums and telepresence.
+
+
+1.  # 55Social
+
+    ## Web developer *March 2013 – November 2013*
+
+    55Social was a Facebook marketing platform. I worked on the publishing
+    module developing new features and improving the existing codebase.
+
+    - Implemented several features to help the company become
+      a Preferred Marketing Developer (PMD) in the Facebook marketing partner
+      program. These features included being able to send private messages with images and
+      uploading video posts.
+
+    - Used Spring and Hibernate to help fix bugs
+      in the back-end of the publishing module.
+
+    Worked with agile methodologies, with daily scrum meetings and monthly
+    planning meetings.
+
+
+1.  # Despegar.com
+
+    ## Web developer  *September 2012 – March 2013*
+
+    Worked in the front-end of the Auto section of [Despegar.com](http://www.despegar.com) (one of the most important travel websites in Latin America), implementing new features, including:
+
+    - Developed a crawler-friendly version of the search section using
+      PhantomJS. We would have preferred to generate these pages using Java, but
+      the search section had complex logic (including rendering) in Javascript.
+      Time was an important factor, and we delivered this in a few weeks.
+
+    - Implemented several new features into the website such as a price comparison
+      grid, improved the payment form, and added a car upselling feature, showing
+      a better deal after having rented a car.
+
+    - Introduced the team to several good practices such as code conventions
+      and Javascript debugging.
+
+
+1.  # Globant
+
+    ## Web developer *October 2010 – September 2012*
+
+    Designed and developed various web-based applications.
+
+    - Built an example app for MySpace to demo how to use MySpace's Javascript
+      API.
+
+    - Worked on various internal apps for J. Walter Thompson (one of the
+      most important international advertising agencies).
+      Started to work with some new technologies back then: Backbone, Mustache,
+      Handlebars, and Node.
+
+    We used agile methodologies: daily scrum meetings and bi-monthly
+    planning meetings. The code review process was a great tool.
+
+
+1.  # Webs with love
+
+    ## Freelance Software Engineer, Graphic Designer *October 2008 – September 2010*
+
+    Freelance Web Development and Software Engineering.
+
+    - Built a board game in AS3 for a non-profit marketing consultant.
+
+    - Designed and developed an app to track stock in stores for a marketing
+      agency in PHP using CodeIgniter framework.
+
+    - Designed websites using WordPress. Also maintained some osCommerce and
+      Drupal websites.
+
+    - Learned how to manage projects, deal with clients, and market my services.
+
+
+1.  # W3 Comunicaciones
+
+    ## Web developer *November 2006 – June 2008*
+
+    Developed and maintained various web-based projects for Citibank's Latin
+    American websites. Introduced the team to table-less designs, using just CSS
+    to change the webpage appearance.
+
+
+# Education
+
+1.  *2013 - 2020 (Expected)*
+    Computer Engineering @ Universidad Argentina de la Empresa (UADE).
+
+# Skills
 
 
 ## Technical
