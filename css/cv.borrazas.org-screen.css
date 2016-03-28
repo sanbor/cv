@@ -2,31 +2,31 @@
   Google Fonts http://www.google.com/fonts#UsePlace:use/Collection:Ubuntu|Open+Sans:400italic,400,700
 */
 @font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Open Sans'), local('OpenSans'), url(http://thremes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), url('../fonts/Open_Sans/OpenSans-Regular.ttf');
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://thremes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), url('../fonts/Open_Sans/OpenSans-Bold.ttf');
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    font-style: italic;
-    font-weight: 400;
-    src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://thremes.googleusercontent.com/static/fonts/opensans/v6/xjAJXh38I15wypJXxuGMBrrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), url('../fonts/Open_Sans/OpenSans-Italic.ttf');
 }
 
 @font-face {
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Ubuntu'), url(http://thremes.googleusercontent.com/static/fonts/ubuntu/v4/vRvZYZlUaogOuHbBTT1SNevvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu'), url('../fonts/Ubuntu/Ubuntu-Regular.ttf');
 }
 
 /* Font awesome http://fontawesome.io/ */
@@ -46,7 +46,7 @@ body {
 }
 
 p {
-    margin: 1rem 0.5rem;
+    margin: 1rem 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -91,7 +91,7 @@ ul, ol {
     list-style: none;
 }
 
-/* An ordered list is used for the timeline */
+/* An ordered list is used for the experience section */
 ol {
     text-align: left;
     list-style: none;
@@ -101,28 +101,33 @@ li {
     margin: 0.8rem 0;
 }
 
-/* Sometimes markdown inserts p inside lists */
-li p {
-    margin: 0;
-}
-
-/* Dates on the timeline */
 ol em {
     display: inline-block;
-    width: 6rem;
+    padding-right: 0.5rem;
+    color: #999;
 }
 
-/* Details in the timeline */
+ol h1 {
+  font-size: 1.3rem;
+  margin: 1.5rem 0 0;
+}
+
+ol h2 {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
 ol li ul {
     padding: 0;
-    font-size: 0.9em;
-    margin: 0 0 0 6.2rem;
+    padding: 0 0 0 1rem;
     color: #333;
-    width: 80%;
+    width: 100%;
+    list-style: disc;
 }
 
 /* Unsorted list are shown as blue bubbles */
-body > ul li {
+body > ul li, .links a {
     text-align: center;
     background: rgb(53,157,255);
     border-radius: 3px;
@@ -135,26 +140,36 @@ body > ul li {
     padding: 0.3rem 0.6rem;
     text-shadow: rgba(0,0,0,0.746094) 0 1px 1px;
     transition: background 2s ease-out;
+    text-decoration: none;
 }
 
 body > ul li:hover {
     background-color: #667380;
 }
 
-body > ul li a,
-body > ul li a:visited {
+.links a,
+.links a:visited {
     color: #fff;
 }
 
 /* Linkedin, Github, Twitter and Flicker links */
-ul.links li {
+.links a {
     background: rgb(143, 0, 255);
 }
 
 /* Icons for the links */
-ul.links li span {
+ul.links li span, .links a span:first-child {
     font-family: 'FontAwesome';
     font-weight: normal;
+}
+
+.links a span:first-child {
+  margin-right: 0.5rem;
+  text-decoration: none;
+}
+
+.links a span+span {
+  text-decoration: underline;
 }
 
 footer {
