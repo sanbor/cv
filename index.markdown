@@ -5,7 +5,7 @@ layout: cv.borrazas.org
 Santiago Borrazás résumé
 ========================
 
-_Last updated 2016-03-27_
+_Last updated 2018-06-12_
 
 
 Santiago is a back-end and front-end software engineer specializing in
@@ -19,9 +19,16 @@ Create the best software and user experience to help people have a better life.
 
 # Experience
 
+1.  # Web.com
+    ## Software engineer *May 2016 - now*
+    
+    - Developed a Website builder from its inception to production release which is currently used by thousands of users.
+    - Drove the team's adoption of CSS Preprocessors, OOCSS, and Docker.
+    - Became the team's Scrum Master.
+    
 1.  # Automated trading system
 
-    ## Software engineer *March 2015 - now*
+    ## Software engineer *March 2015 - May 2016*
 
     Developed and maintained a system for running automated trading algorithms.
     Including:
@@ -189,7 +196,7 @@ Create the best software and user experience to help people have a better life.
 
 # About
 
-Buenos Aires, Argentina
+Argentine and Spanish citizenship
 
 Email: <santiago@borrazas.org>
 
