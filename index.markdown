@@ -20,11 +20,20 @@ Create the best software and user experience to help people have a better life.
 # Experience
 
 1.  # Web.com
+
+    Web.com is an American company that provides domain name registration and web development services to small and medium sized business.
+
     ## Software engineer *May 2016 - now*
     
-    - Developed a Website builder from its inception to production release which is currently used by thousands of users.
-    - Drove the team's adoption of CSS Preprocessors, OOCSS, and Docker.
-    - Became the team's Scrum Master.
+    - Developed Website builder from its inception to production release. Currently used by thousands of users.
+
+    - Drove the team's adoption of CSS Preprocessors, OOCSS, and linters. When the project grew in size and features I introduced the team to Less and Sass and how it could help to reuse and modularize the styles. We were using web components so using OOCSS was a natural choise. I taught how to write styles using BEM/SuitCSS conventions to the team and assisted them. This helped us to reduce the amount of bugs when introducing new UX. Moreover, I set up linters for Javascript and Less and other related tasks.
+
+    - Dockerized the project. Given the microservices architecture of the project, setting up the development environment in a new machine could take days and it wouldn't work on Windows. I used docker and docker-compose to automate the environment setup and provide an easy way of setting up the project.
+
+    - Helped optimize page load time in different projects. I analyzed page speeds and used different techniques and tools to improve load times. I also removed Bootstrap as a dependency from generated websites in order to save bandwidth and make final websites lighter.
+
+    - Chosen as team's Scrum Master
     
 1.  # Automated trading system
 
@@ -161,7 +170,7 @@ Create the best software and user experience to help people have a better life.
 
 # Education
 
-1.  *2013 - 2020 (Expected)*
+1.  *2013 - 2021 (Expected)*
     Computer Engineering @ Universidad Argentina de la Empresa (UADE).
 
 # Skills
