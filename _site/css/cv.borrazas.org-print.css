@@ -1,0 +1,123 @@
+/*
+  Google Fonts http://www.google.com/fonts#UsePlace:use/Collection:Ubuntu|Open+Sans:400italic,400,700
+*/
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), url('../fonts/Open_Sans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), url('../fonts/Open_Sans/OpenSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), url('../fonts/Open_Sans/OpenSans-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu'), url('../fonts/Ubuntu/Ubuntu-Regular.ttf');
+}
+
+/* Font awesome http://fontawesome.io/ */
+
+@font-face {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/fontawesome-webfont.woff') format('woff');
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 75%;
+}
+
+body h1:first-child {
+  margin: 0;
+}
+
+body h1:first-child + p em {
+  color: #999;
+  display: inline-block;
+  font-size: 0.9rem;
+  margin: 0 0 1rem 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+  margin: 1.5rem 0 1rem 0;
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+ol h1 {
+  font-size: 1.3rem;
+  margin: 1.5rem 0 0;
+  font-weight: normal;
+}
+
+ol h2 {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+ol li em {
+  display: block;
+  width: 100%;
+  color: #999;
+}
+
+
+ol li {
+  margin-bottom: 1rem;
+}
+
+ol li ul {
+  font-size: 0.9em;
+  text-align: left;
+  margin-left: 1rem;
+  list-style: disc;
+
+}
+
+/*
+Linkedin, Github, Twitter and Flicker links are not useful in the print version
+*/
+.links, footer > a {
+  display: none;
+}
+
+footer {
+  color: #999;
+  margin-top: 2rem;
+}

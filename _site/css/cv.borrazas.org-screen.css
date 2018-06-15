@@ -1,0 +1,196 @@
+/* Font awesome http://fontawesome.io/ */
+
+@font-face {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/fontawesome-webfont.woff') format('woff');
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    line-height: 1.6em;
+    text-align: center;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    line-height: 2rem;
+    margin: 3rem 0 1rem 0;
+}
+
+/* Latest updated caption */
+body h1:first-child + p em {
+    color: #999;
+    display: inline-block;
+    font-size: 0.9rem;
+    font-style: normal;
+    margin: 0 auto 2rem auto;
+    padding: 0 0.1rem;
+    position: relative;
+}
+
+/* Latest updated caption decoration */
+body h1:first-child + p em:before,
+body h1:first-child + p em:after {
+    border-top: 1px solid #ddd;
+    content: "";
+    display: block;
+    left: -4.2rem;
+    position: absolute;
+    top: 0.85rem;
+    width: 4rem;
+}
+
+body h1:first-child + p em:after {
+    left: auto;
+    right: -4.2rem;
+}
+
+ul, ol {
+    width: 60%;
+    margin: 1rem auto;
+    padding: 0;
+    list-style: none;
+}
+
+/* An ordered list is used for the experience section */
+ol {
+    text-align: left;
+    list-style: none;
+}
+
+li {
+    margin: 0.8rem 0;
+}
+
+ol em {
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: #999;
+}
+
+ol h1 {
+  font-size: 1.3rem;
+  margin: 1.5rem 0 0;
+}
+
+ol h2 {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+ol li ul {
+    padding: 0;
+    padding: 0 0 0 1rem;
+    color: #333;
+    width: 100%;
+    list-style: disc;
+}
+
+/* Unsorted list are shown as blue bubbles */
+body > ul li, .links a {
+    text-align: center;
+    background: rgb(53,157,255);
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.25);
+    border-top: 1px solid rgba(200,200,255,0.25);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    color: #fff;
+    display: inline-block;
+    margin: 0.2rem;
+    padding: 0.3rem 0.6rem;
+    text-shadow: rgba(0,0,0,0.746094) 0 1px 1px;
+    transition: background 2s ease-out;
+    text-decoration: none;
+}
+
+body > ul li:hover {
+    background-color: #667380;
+}
+
+.links a,
+.links a:visited {
+    color: #fff;
+}
+
+/* Linkedin, Github, Twitter and Flicker links */
+.links a {
+    background: rgb(143, 0, 255);
+}
+
+/* Icons for the links */
+ul.links li span, .links a span:first-child {
+    font-family: 'FontAwesome';
+    font-weight: normal;
+}
+
+.links a span:first-child {
+  margin-right: 0.5rem;
+  text-decoration: none;
+}
+
+.links a span+span {
+  text-decoration: underline;
+}
+
+footer {
+    color: #999;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* Some space between links */
+footer a {
+    padding: 0 0.2rem;
+}
+
+/* Link to the online version, only useful for the print version */
+.link-online-version {
+    display: none;
+}
+
+
+/* Better use of horizontal space in tablets and smaller devices */
+@media only screen and (max-width: 768px) {
+
+    /* Latest updated caption decoration lines shorter */
+    body h1:first-child + p em:before,
+    body h1:first-child + p em:after {
+      left: -2.2rem;
+      width: 2rem;
+    }
+
+    body h1:first-child + p em:after {
+        left: auto;
+        right: -2.2rem;
+     }
+
+    ol {
+        width: 100%;
+        text-align: center;
+    }
+
+    ol li {
+        display: block;
+        width: 100%;
+    }
+
+    ol li em {
+        display: block;
+        width: 100%;
+        font-weight: bold;
+    }
+
+    ol li ul {
+        margin: 0 auto;
+    }
+}
